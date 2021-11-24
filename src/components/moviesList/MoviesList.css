@@ -1,0 +1,41 @@
+.btn-wrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+} 
+
+
+.card {
+    height: 400px;
+    position: relative;
+    text-decoration: none;
+}
+
+.card-body{
+    line-height: 18px;
+    font-family: 'PF DinDisplay Medium','Trebuchet MS',Arial;
+    font-size: 15px;
+    color: #78829d;
+    display: block;
+    width: 100%;
+    text-align: start;
+    padding-bottom: 5px;
+}
+
+.card-ref {
+    text-decoration: none;
+
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 6px 10px 0 rgb(189, 93, 30);
+}
+
+.item__name {
+    display: none;
+    position: absolute;
+}

@@ -1,0 +1,15 @@
+.overfvow {
+        background-color: rgba(47, 54, 74, 1);
+}
+
+.item {
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 3px;
+        box-shadow: 0 1px 5px 0 #000;
+}
+
+.item:hover {
+        cursor: pointer;
+        box-shadow: 0 40px 40px 0 rgb(121, 34, 34);
+}
